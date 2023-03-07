@@ -1,0 +1,46 @@
+body {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXsgL80ztxcT2JDt4-9CXiJLZOcv712vegkA&usqp=CAU);
+    background-size: cover;
+    line-height: 1.6;
+    margin: 2em;
+}
+.center{
+    border: 1px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    text-align: center;  
+    font-size: 20px;  
+}
+th {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+td {
+    border-top: 1px solid #eee;
+    padding: 0.5em 1em;
+}
+
+input {
+    cursor: pointer;
+}
+
+/* Column types */
+th.missed-col {
+    background-color: #f00;
+}
+
+td.missed-col {
+    color: #f00;
+    text-align: center;
+}
+
+.name-col {
+    text-align: left;
+}
+.s{
+    text-align: right;
+}
